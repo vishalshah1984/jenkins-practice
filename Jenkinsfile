@@ -9,7 +9,7 @@ pipeline {
         nodejs 'nodejs'
         }
     stages {
-        stage('build') {
+    //    stage('build') {
                 stage('java'){
                     agent {
                         label 'master'
@@ -58,7 +58,7 @@ pipeline {
             }
 
         }
-}
+//}
 
 }
 
